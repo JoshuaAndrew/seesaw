@@ -1,0 +1,49 @@
+hash: 648a69f004419e818773f0f6e545da366a483af41627081c2a3516ad7cc205d6
+updated: 2018-07-29T21:58:19.336581+08:00
+imports:
+- name: github.com/dlintw/goconf
+  version: dcc070983490608a14480e3bf943bad464785df5
+- name: github.com/golang/glog
+  version: 44145f04b68cf362d9c4df2182967c2275eaefed
+- name: github.com/golang/protobuf
+  version: 4bd1920723d7b7c925de087aa32e2187708897f7
+  subpackages:
+  - proto
+- name: github.com/google/seesaw
+  version: 34716af0775ecb1fad239a726390d63d6b0742dd
+  subpackages:
+  - cli
+  - common/conn
+  - common/ipc
+  - common/seesaw
+  - common/server
+  - ecu
+  - engine
+  - engine/config
+  - ha
+  - healthcheck
+  - ipvs
+  - ncc
+  - ncc/client
+  - ncc/types
+  - netlink
+  - pb/config
+  - quagga
+  - watchdog
+- name: github.com/miekg/dns
+  version: 5d001d020961ae1c184f9f8152fdc73810481677
+- name: golang.org/x/crypto
+  version: 81e90905daefcd6fd217b62423c0908922eadb30
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: 7ddbeae9ae08c6a06a59597f0c9edbc5ff2444ce
+  subpackages:
+  - unix
+  - windows
+testImports:
+- name: github.com/kylelemons/godebug
+  version: d65d576e9348f5982d7f6d83682b694e731a45c6
+  subpackages:
+  - diff
+  - pretty

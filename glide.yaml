@@ -1,0 +1,33 @@
+package: .
+import:
+- package: github.com/dlintw/goconf
+- package: github.com/golang/glog
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+- package: github.com/google/seesaw
+  subpackages:
+  - cli
+  - common/conn
+  - common/ipc
+  - common/seesaw
+  - common/server
+  - ecu
+  - engine
+  - engine/config
+  - ha
+  - healthcheck
+  - ipvs
+  - ncc
+  - ncc/client
+  - ncc/types
+  - netlink
+  - pb/config
+  - quagga
+  - watchdog
+- package: github.com/miekg/dns
+- package: golang.org/x/crypto/ssh/terminal
+testImport:
+- package: github.com/kylelemons/godebug
+  subpackages:
+  - pretty
